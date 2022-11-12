@@ -1,79 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Montserrat:wght@500;700&family=Poppins:wght@200;300;400;600;700&display=swap');
+
 *{
+    box-sizing: border-box;
+    
+}
+html,body{
     margin: 0;
     padding: 0;
+    font-size: 16px;
+    font-family:'inter'sans-serif;
+}
+header{
+    padding: 40px 50px;
+    color: black;
+}
+#logo{
+    display: inline-block;
+    width: 50px;
+    margin-right: 8px;
+
+}
+@media only screen and (max-width:600px){
+    body{
+        width:500px;
+
+    }
+
+}
     
-}
-.header{
-    padding: 20px;
-    position: relative;
-}
-.header img{
-    max-width: 600px;
-    position: relative;
-    margin-left: 30px;
-    top: 20px;
-
-
-}
 
 nav{
-    float: right;
-    
-}
-.nav ul li a{
+    width: 75%;
     display: inline-block;
-    justify-content: space-between;
-    position: inherit;
-}
-ul li a{
-    list-style: none;
-    text-decoration: none;
-    font-size: 12px;
+    text-align: right;
+justify-content: center;}
+    nav ul{
+        list-style: none;
+        margin: 0;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 0%;
+        
+        
+        
+        
+    }
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+        display:flex ;
+        justify-content: space-around;
+
+        padding: 10px 15px;
+        left: 50px;
+
+    }
+    nav ul li a:hover{
+        color: brown;
+        cursor: pointer;
+
+    }
+main img{
+    display: inline-block;
+    width: 700px;
     display: flex;
-    justify-content: space-between;
-    top: 40px;
+    margin-left: 8%;
+    justify-content: space-around;
 }
-ul li {
-    list-style:none;
+ #card{
+    top:20%;
+    right:15%;
     display: inline-block;
-    padding-top: 20px;
+    width: 20%;
+    height: 80%;
+    background-color:rgb(2, 2, 59) ;
     justify-content: space-between;
     justify-items: center;
-    padding: 10px 20px;
-    top: 10%;
-    position: relative;
-    padding-top: 0%;
+    text-align: left;
+    
+    color: white;
+    
+    position:absolute;
+    margin-right: 8%;
 
-
-
+    padding:15px;
+    
+}
+#card h2 h3 h5{
+    padding-bottom: 0%;
 
 }
 
-.nav-link{
-    top:50px;
-}
-ul li a{
-    margin-top: 0%;
-}
-ul li a{
-    color: rgb(26, 24, 24);
-    top: 50%;
 
+main div h1{
+    
+    font-family:'inter'sans-serif;
+    margin-left: 8%;
+    font-weight: 800;
+    font-size:40px ;
+    
+    letter-spacing: none;
+    color: rgb(5, 5, 65);
 
 }
-ul li a:hover {
-    color: rgb(204, 7, 7);
+.content{
+    
+    display:inline-block;
     
     
+    
+    
+}
+.content > div {
+    display: inline-block;
+    width: 300px;
+    padding-left: 0%;
+    
+
+    
+}
+.content div h5{
+    display: inline-block;
+    padding-left: 5px;
+    color: rgb(204, 199, 199);
+    left: 0px;
 
 }
-div .row{
-    display: flex;
-    flex-direction: row;
+
+.btn {
+    width: 200px;
+    background-color: rgb(3, 3, 54);
+    color: white;
+    text-decoration: none;
+    border: 1px solid navy;
+    padding: 15px 32px;
+    
+
 }
+        
+    footer img{
+        
+        width: 150px;
+        margin: 5%;
+    }   
+    .testimonial1{
+        display: inline-block;
+        justify-content: flex-start;
+    
+        height: 100px;
+        
+    
+        
+    
+    }
 
-
-
+        
     
     
 
