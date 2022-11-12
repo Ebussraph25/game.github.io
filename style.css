@@ -23,7 +23,7 @@ header{
 }
 @media only screen and (max-width:600px){
     body{
-        width:500px;
+        flex-direction:column;
 
     }
 
